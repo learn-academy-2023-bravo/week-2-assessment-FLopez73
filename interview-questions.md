@@ -18,7 +18,7 @@ Researched answer: The parameter is just a placeholder for function arguments al
 
 Your answer: .map() needs to be assigend to a new variable since it returns a new array of the same length of the original. It is required to assing the .map method to a new function.
 
-Researched answer: There a a few paramateres that .map method takes and those are an element, index, array. The callbackFn parameter is the only one that is optional.
+Researched answer: There a a few paramateres that .map method takes and those are an element, index, array. The callbackFn parameter index and array are the ones that are optional.
 
 3. What is the difference between map and filter?
 
@@ -32,7 +32,7 @@ https://codeburst.io/array-methods-explained-filter-vs-map-vs-reduce-vs-foreach-
 
 Your answer:Iteration is running a loop going over a set of data once to it's completion or a certain condition is met.
 
-Researched answer: A way to traverse over a list or a collection of data that keeps going until a condition is met.
+Researched answer: A way to traverse over a list or a collection of data that keeps going until a condition is met. An expamle of iteration would be running a for loop on an array the structure for one is for (index=0 ; index<array.length ; i++) {} and the first portion is telling the position of the starting for the for loop which is at the 0 index of the array. The second portion is telling it to iterate through the whole array. Lastly is the incriment in which the iteration is happening in this case it is going in incriments of 1.
 
 1. What is the difference between a function and a method?
 

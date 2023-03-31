@@ -29,18 +29,12 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 // // a) Create a test with expect statements for each of the variables provided.
 describe("divByThree", () => {
-  it("should return '15 is divisible by three' when given { number: 15 }", () => {
-    expect(divByThree({ number: 15 })).toBe("15 is divisible by three")
+  it("should return value is divisible by three or not divisible by three", () => {
+    expect(divByThree({ number: 15 })).toEqual("15 is divisible by three")
   })
-
-  it("should return '0 is divisible by three' when given { number: 0 }", () => {
-    expect(divByThree({ number: 0 })).toBe("0 is divisible by three")
-  })
-
-  it("should return '-7 is not divisible by three' when given { number: -7 }", () => {
-    expect(divByThree({ number: -7 })).toBe("-7 is not divisible by three")
-  })
+  expect(divByThree({ number: 0 })).toEqual("0 is divisible by three")
 })
+expect(divByThree({ number: -7 })).toEqual("-7 is not divisible by three")
 
 const object1 = { number: 15 }
 // Expected output: "15 is divisible by three"
@@ -79,14 +73,14 @@ function divByThree(object) {
 
 describe(letterCap, () => {
   it("returns an array with the first letter in all the words capitalized", () => {
-    expect(letterCap(array)).toEqual([
+    expect(letterCap(randomNouns1)).toEqual([
       "Streetlamp",
       "Potato",
       "Teeth",
       "Conclusion",
       "Nephew",
     ])
-    expect(letterCap(array)).toEqual([
+    expect(letterCap(randomNouns2)).toEqual([
       "Temperature",
       "Database",
       "Chopsticks",

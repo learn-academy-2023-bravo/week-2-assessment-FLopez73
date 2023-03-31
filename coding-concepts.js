@@ -21,7 +21,7 @@ const greeter = (name) => {
 console.log(greeter("LEARN Student"))
 
 // a) Your answer: This will log "Hello, LEARN STUDENT" due to the string interpolation that incorporates the variable into the return.
-// b) Verify and explain: The return was undefined and that in because there was never a declaration for the variable name.
+// b) Verify and explain: The return was undefined and that in because there is no return for the function.
 
 // --------------------3) What will this log?
 
